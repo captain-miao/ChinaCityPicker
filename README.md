@@ -35,7 +35,7 @@ dependencies {
 ```
 
 ## Screenshot
-![cities-of-china-picker](https://raw.githubusercontent.com/captain-miao/me.github.com/master/screenshot/cities-of-china-picker.jpg "cities-of-china-picker")
+![cities-of-china-picker](https://raw.githubusercontent.com/captain-miao/me.github.com/master/screenshot/cities-of-china-picker.png "cities-of-china-picker")
 
 ### 感谢
 
