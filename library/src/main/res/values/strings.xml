@@ -1,0 +1,5 @@
+<resources>
+    <string name="picker_title">选择地区</string>
+    <string name="picker_ok">确定</string>
+    <string name="picker_cancel">取消</string>
+</resources>
