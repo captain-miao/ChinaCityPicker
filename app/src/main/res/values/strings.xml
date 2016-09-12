@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ChinaCityPicker</string>
 
-    <string name="select_address" formatted="false">选择地区</string>
+    <string name="select_address" formatted="false">地区</string>
+    <string name="select_address_gson" formatted="false">选择地区(Gson)</string>
+    <string name="select_address_fast_json" formatted="false">选择地区(FastJson)</string>
     <string name="selected_address" formatted="false">%s %s %s</string>
 </resources>
