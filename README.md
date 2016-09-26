@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.captain-miao:chinacitypicker:1.0.0-SNAPSHOT'
+    compile 'com.github.captain-miao:chinacitypicker:1.0.0'
 }
 
 ```
