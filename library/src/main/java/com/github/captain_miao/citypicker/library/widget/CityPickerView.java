@@ -137,7 +137,7 @@ public class CityPickerView implements CanShow, OnWheelChangedListener {
         popwindow.setFocusable(true);
 
         //初始化城市数据
-        initProvinceDatas(provinceList);
+        initProvinceData(provinceList);
 
 
         // 添加change事件
@@ -243,7 +243,11 @@ public class CityPickerView implements CanShow, OnWheelChangedListener {
     }
 
 
-    protected void initProvinceDatas(List<? extends ProvinceItem> provinceList) {
+    /**
+     * 将3级数据 转换成Map
+     * @param provinceList provinceList
+     */
+    public void initProvinceData(List<? extends ProvinceItem> provinceList) {
 
             mProvinces = new ProvinceItem[provinceList.size()];
             for (int i = 0; i < provinceList.size(); i++) {
@@ -361,5 +365,21 @@ public class CityPickerView implements CanShow, OnWheelChangedListener {
 
     public WheelView getViewDistrict() {
         return mViewDistrict;
+    }
+
+    public Map<String, CityItem[]> getCitisMap() {
+        return mCitisMap;
+    }
+
+    public Map<String, DistrictItem[]> getDistrictsMap() {
+        return mDistrictsMap;
+    }
+
+    public TextView getTvOK() {
+        return mTvOK;
+    }
+
+    public TextView getTvCancel() {
+        return mTvCancel;
     }
 }
